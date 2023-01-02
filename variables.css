@@ -1,0 +1,11 @@
+/* Global variable declarations */
+:root {
+  --primary: #286090;
+  --secondary: #b8d4eb;
+  --other: #ffffff;
+  --gray1: #DCDCDC;
+  --gray2: #D3D3D3;
+  --gray3: #C0C0C0;
+  --gray4: #A9A9A9;
+  --gray5: #808080;
+}
