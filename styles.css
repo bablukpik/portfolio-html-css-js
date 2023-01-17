@@ -61,6 +61,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 
 .profile-thumb {
@@ -79,6 +80,12 @@ main {
 
 .profile-thumb img {
   max-width: 20rem;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
 }
 
 footer {
