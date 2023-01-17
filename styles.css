@@ -144,7 +144,7 @@ main {
   box-shadow: 2px 2px 2px black;
 }
 
-.social-icons {
+.social-links {
   list-style: none;
   display: flex;
   gap: 2rem;
