@@ -46,7 +46,8 @@ h3 {
 }
 
 header {
-  padding: 2.5rem 0;
+  margin-top: 2.5rem;
+  font-size: 1.8rem;
 }
 
 header,
@@ -65,14 +66,28 @@ header nav ul {
 header nav ul li a {
   text-decoration: none;
   color: var(--gray1);
-  padding: .5rem 1rem;
-  transition: all 0.3s;
+  padding: 1rem;
 }
 
 header nav ul li a:hover,
 header nav ul li a:focus {
   color: var(--gray1);
-  background-color: var(--secondary);
+  border-bottom: 3px solid #0bc593;
+}
+
+header .cta {
+  margin-left: 3rem;
+}
+
+header .cta a {
+  padding: 5px 10px;
+  background: #0bc593;
+  border-radius: .5rem;
+}
+
+header .cta a:hover,
+header .cta a:focus {
+  border: none;
 }
 
 main {
