@@ -72,7 +72,7 @@ header nav ul li a {
 header nav ul li a:hover,
 header nav ul li a:focus {
   color: var(--gray1);
-  border-bottom: 3px solid #0bc593;
+  border-bottom: 3px solid var(--secondary);
 }
 
 header .cta {
@@ -81,8 +81,10 @@ header .cta {
 
 header .cta a {
   padding: 5px 10px;
-  background: #0bc593;
   border-radius: .5rem;
+  color: #fff;
+  background-color: var(--secondary);
+  box-shadow: 0px 15px 20px rgb(46 229 157 / 40%);
 }
 
 header .cta a:hover,
@@ -126,6 +128,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  color: #fff;
 }
 
 .name::before {
