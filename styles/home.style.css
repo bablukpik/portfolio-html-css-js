@@ -75,11 +75,11 @@ header nav ul li a:focus {
   border-bottom: 3px solid var(--secondary);
 }
 
-header .cta {
+.cta {
   margin-left: 3rem;
 }
 
-header .cta a {
+.cta a {
   padding: 5px 10px;
   border-radius: .5rem;
   color: #fff;
@@ -87,8 +87,8 @@ header .cta a {
   box-shadow: 0px 15px 20px rgb(46 229 157 / 40%);
 }
 
-header .cta a:hover,
-header .cta a:focus {
+.cta a:hover,
+.cta a:focus {
   border: none;
 }
 
@@ -103,7 +103,7 @@ main {
 }
 
 .profile-thumb {
-  background-image: url("./images/bablu-ahmed.png");
+  background-image: url("../images/bablu-ahmed.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
