@@ -1,5 +1,15 @@
 @import url('./common.style.css');
 
+main {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  color: var(--gray1);
+}
+
 .profile-thumb {
   background-image: url("../images/bablu-ahmed.png");
   background-size: cover;

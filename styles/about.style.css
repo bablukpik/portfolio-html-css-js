@@ -1,1 +1,35 @@
 @import url('./common.style.css');
+
+main {
+  flex: 1;
+  display: flex;
+}
+
+#about {
+  background-color: #f5f5f5;
+  flex: 1;
+}
+
+.page-title {
+  padding: 3rem 0 3rem 0;
+  text-align: center;
+}
+
+.page-title h2:after {
+  background: #dddddd;
+  content: '';
+  display: block;
+  height: 2px;
+  margin: 1.5rem auto 0 auto;
+  position: relative;
+  width: 10rem;
+}
+
+.page-content {
+  line-height: 2.5rem;
+  text-align: justify;
+  background-color: #fff;
+  padding: 3rem;
+  max-width: 75rem;
+  margin: 0 auto;
+}
