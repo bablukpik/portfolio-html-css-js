@@ -103,11 +103,12 @@
 
 .timeline-item section .details .title{
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 500;
+  margin-bottom: 15px;
 }
 
 .timeline-item section p{
-  margin: 10px 0 17px 0;
+  text-align: justify;
 }
 
 .timeline-item section .bottom a{
@@ -136,7 +137,7 @@
   }
   
   .timeline-item{
-    margin: 30px 0 3px 60px;
+    margin: 0 0 3px 60px;
   }
   
   .timeline-item section{
