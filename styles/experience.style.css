@@ -13,6 +13,7 @@
   position: relative;
   padding: 0 20px 20px 20px;
   margin-bottom: 40px;
+  max-width: 140rem;
 }
 
 .center-line{
@@ -43,13 +44,14 @@
   width: calc(50% - 40px);
   padding: 20px;
   position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0.4rem 1.2rem;
 }
 
 .timeline-item section::before{
   position: absolute;
   content: "";
-  height: 15px;
-  width: 15px;
+  height: 1.5rem;
+  width: 1.5rem;
   background: #fff;
   top: 28px;
   transform: rotate(45deg);
@@ -102,7 +104,6 @@
 }
 
 .timeline-item section .details .title{
-  font-size: 22px;
   font-weight: 500;
   margin-bottom: 15px;
 }
@@ -133,11 +134,11 @@
 
 @media(max-width: 790px){
   .center-line{
-    left: 40px;
+    left: 4rem;
   }
   
   .timeline-item{
-    margin: 0 0 3px 60px;
+    margin: 1rem 0 0.3rem 6rem;
   }
   
   .timeline-item section{
@@ -145,10 +146,10 @@
   }
   
   .timeline-item-left section::before{
-    left: -7px;
+    left: -0.7rem;
   }
   
   .timeline-item-left section .icon{
-    left: -55px;
+    left: -5.5rem;
   }
 }
