@@ -200,6 +200,16 @@
       <p>&copy; 2017 - 2023 <a target="_self" href="http://w3public.com">w3public.com</a>. All Rights Reserved.</p>
     </footer>
   </div>
+  <script>
+    const currentPathname = window.location.pathname;
+    document.querySelectorAll(".nav-list li a").forEach(el => {
+      if (currentPathname === el.getAttribute("href")) {
+        el.classList.add("active");
+      } else {
+        el.classList.remove("active");
+      }
+    });
+  </script>
 </body>
 
 </html>
