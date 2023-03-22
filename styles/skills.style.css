@@ -1,0 +1,5 @@
+@import url('./experience.style.css');
+
+.page-content tr td{
+  padding: 0.3rem;
+}

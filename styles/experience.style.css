@@ -1,6 +1,7 @@
 @import url('./common.style.css');
 
-#experience {
+#experience, 
+#education {
   display: flex;
   flex-direction: column;
   align-items: center;
